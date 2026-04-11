@@ -2,6 +2,7 @@
 # core: 核心非GUI功能（QString, QFile等）
 # gui: GUI基础模块
 # printsupport: 打印支持模块（因为项目里有打印功能）
+# Git
 QT       += core gui printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
