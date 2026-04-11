@@ -1,0 +1,6 @@
+services:
+  qnotepad:
+    image: qnotepad
+    build:
+      context: .
+      dockerfile: ./Dockerfile
