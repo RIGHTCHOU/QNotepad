@@ -19,6 +19,13 @@ int main(int argc, char *argv[])
 
     // 5. 设置窗口标题（可选，也可以在MainWindow构造函数里设置）
     w.setWindowTitle("QNotepad");
+
+    // 6. 显示窗口
+    // 注意：Qt的窗口创建后默认是隐藏的，必须调用show()才会显示
     w.show();
+
+    // 7. 进入应用程序的事件循环
+    // a.exec()会让程序一直运行，直到用户关闭窗口
+    // 它的作用是“卡住”程序，不断监听用户的操作（点击、打字等），并分发给对应的处理函数
     return a.exec();
 }
