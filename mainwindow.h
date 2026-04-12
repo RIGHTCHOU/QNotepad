@@ -73,6 +73,8 @@ private slots:
 
     void on_actionPrint_triggered();// 对应“打印”菜单
 
+    // 嘿嘿
+
 private:
     // 8. 成员变量
     Ui::MainWindow *ui;// 指向UI界面的指针，通过它可以访问UI文件里的所有控件
